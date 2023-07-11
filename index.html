@@ -1,0 +1,286 @@
+<html>
+<head>
+<title>Calcolo MCD e mcm </title>
+ 
+  <link rel="stylesheet" type="text/css" href="mcdmcm.css">
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+
+<div class="bfClearfix">
+<script type="text/javascript">
+<!--
+ff_processor=new Object();ff_processor.okrun=true;ff_processor.ip='15.236.166.30';ff_processor.agent='Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0 X-Middleton/1';ff_processor.browser='Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0 X-Middleton/1';
+ff_processor.opsys='unix';ff_processor.provider='Unknown';ff_processor.submitted='2023-07-11 18:49:17';ff_processor.form=9;ff_processor.form_id='ff_form9';ff_processor.page=1;ff_processor.target=2;ff_processor.runmode=0;ff_processor.inframe=0;ff_processor.inline=0;
+ff_processor.template=0;ff_processor.homepage='https://www.lifeintravel.it';ff_processor.mossite='https://www.lifeintravel.it';ff_processor.images='https://www.lifeintravel.it/components/com_breezingforms/images';ff_processor.border='';ff_processor.align='';
+ff_processor.top='';ff_processor.suffix='';ff_processor.status=null;ff_processor.message=null;ff_processor.record_id=null;ff_processor.showgrid=false;ff_processor.traceBuffer=null;
+//-->
+</script>
+<script type="text/javascript" src="/components/com_breezingforms/facileforms.js"></script>
+<div id="ff_formdiv9" class="bfFormDiv"><script type="text/javascript">
+<!--
+
+function checkFileExtensions(){
+			return true;
+		}
+		function bfCheckCaptcha(){if(checkFileExtensions())ff_submitForm2();}function ff_initialize(condition)
+{}
+onload=function()
+{ff_initialize('formentry');ff_initialize('pageentry');if(ff_processor&&ff_processor.traceBuffer)ff_traceWindow();}
+var ff_currentpage=1;
+var ff_validationFocusName='';
+var ff_elements=[['ff_elem1377','ff_div1377','bfFakeName4',1,1377],['ff_elem1376','ff_div1376','bfFakeName3',1,1376],['ff_elem1375','ff_div1375','bfFakeName2',1,1375],['ff_elem1374','ff_div1374','bfFakeName',1,1374],['ff_elem838','ff_div838','ruota',1,838],
+['ff_elem839','ff_div839','corona',1,839],['ff_elem844','ff_div844','pignone',1,844],['ff_elem840','ff_div840','sviluppo',1,840],['ff_elem1156','ff_div1156','guarnitura',1,1156],['ff_elem1187','ff_div1187','pignone_piccolo_mono',1,1187],['ff_elem1188','ff_div1188','pignone_grande_mono',1,1188],
+['ff_elem1197','ff_div1197','range_mono',1,1197],['ff_elem991','ff_div991','corona_piccola',1,991],['ff_elem1041','ff_div1041','corona_grande',1,1041],['ff_elem992','ff_div992','pignone_piccolo',1,992],['ff_elem1042','ff_div1042','pignone_grande',1,1042],
+['ff_elem1043','ff_div1043','range',1,1043],['ff_elem1242','ff_div1242','cadenza',1,1242],['ff_elem1237','ff_div1237','velocita',1,1237]
+];
+function ff_getElementByName(name)
+{if(name.substr(0,6)=='ff_nm_')name=name.substring(6,name.length-2);for(var i=0;i<ff_elements.length;i++)
+if(ff_elements[i][2]==name)
+return eval('document.ff_form9.'+ff_elements[i][0]);return null;}
+function ff_getPageByName(name)
+{if(name.substr(0,6)=='ff_nm_')name=name.substring(6,name.length-2);for(var i=0;i<ff_elements.length;i++)
+if(ff_elements[i][2]==name)
+return ff_elements[i][3];return 0;}
+function ff_switchpage(page){if(document.getElementById("bfPage1"))document.getElementById("bfPage1").style.display="none";if(document.getElementById("bfPage"+page))document.getElementById("bfPage"+page).style.display="";ff_currentpage=page;ff_initialize("pageentry");
+}
+function ff_validationFocus(name)
+{if(name==undefined||name==''){if(ff_validationFocusName!=''){ff_switchpage(ff_getPageByName(ff_validationFocusName));if(ff_getElementByName(ff_validationFocusName).focus){ff_getElementByName(ff_validationFocusName).focus();}}}else{if(ff_validationFocusName=='')
+ff_validationFocusName=name;}}
+function ff_validation(page)
+{if(typeof inlineErrorElements!='undefined')inlineErrorElements=new Array();error='';ff_validationFocusName='';if(error!=""&&document.getElementById('ff_capimgValue')){document.getElementById('ff_capimgValue').src='/components/com_breezingforms/images/captcha/securimage_show.php?bfMathRandom='+Math.random();
+document.getElementById('bfCaptchaEntry').value="";}if(error!=""&&document.getElementById("bfSubmitButton")){document.getElementById("bfSubmitButton").disabled=false;}if(error!=""&&typeof JQuery!="undefined"){JQuery(".bfCustomSubmitButton").prop("disabled",false);}
+return error;}
+function ff_validate_nextpage(element,action)
+{if(typeof bfUseErrorAlerts!='undefined'){JQuery(".bfErrorMessage").html('');JQuery(".bfErrorMessage").css("display","none");}error=ff_validation(ff_currentpage);if(error!=''){if(typeof bfUseErrorAlerts=='undefined'){alert(error);}else{bfShowErrors(error);
+}ff_validationFocus('');}else{ff_switchpage(ff_currentpage+1);self.scrollTo(0,0);}}
+function ff_validate_prevpage(element,action)
+{if(typeof bfUseErrorAlerts!='undefined'){JQuery(".bfErrorMessage").html('');JQuery(".bfErrorMessage").css("display","none");}error=ff_validation(ff_currentpage);if(error!=''){if(typeof bfUseErrorAlerts=='undefined'){alert(error);}else{bfShowErrors(error);
+}ff_validationFocus('');}else{if(ff_currentpage>1){ff_switchpage(ff_currentpage-1);self.scrollTo(0,0);}}}
+function ff_resetForm(element,action)
+{eval('document.'+ff_processor.form_id).reset();}
+function ff_submitForm()
+{if(document.getElementById('bfSubmitButton')){document.getElementById('bfSubmitButton').disabled=true;}if(typeof JQuery!='undefined'){JQuery('.bfCustomSubmitButton').prop('disabled',true);}bfCheckCaptcha();}function ff_submitForm2()
+{if(document.getElementById('bfSubmitButton')){document.getElementById('bfSubmitButton').disabled=true;}if(typeof JQuery!='undefined'){JQuery('.bfCustomSubmitButton').prop('disabled',true);}if(typeof bf_ajax_submit!='undefined'){bf_ajax_submit()}else{document.ff_form9.submit();}
+}
+function ff_validate_submit(element,action)
+{if(typeof bfUseErrorAlerts!='undefined'){JQuery(".bfErrorMessage").html('');JQuery(".bfErrorMessage").css("display","none");}error=ff_validation(0);if(error!=''){if(typeof bfUseErrorAlerts=='undefined'){alert(error);}else{bfShowErrors(error);}ff_validationFocus();
+}else
+ff_submitForm();}
+function ff_ruota_action(element,action)
+{ff_getElementByName('sviluppo').value=(Number(ff_getElementByName('corona').value)/
+Number(ff_getElementByName('pignone').value)*Number(ff_getElementByName('ruota').value))+' m';}
+function ff_corona_action(element,action)
+{ff_getElementByName('sviluppo').value=(Number(ff_getElementByName('corona').value)/
+Number(ff_getElementByName('pignone').value)*Number(ff_getElementByName('ruota').value))+' m';}
+function ff_pignone_action(element,action)
+{ff_getElementByName('sviluppo').value=(Number(ff_getElementByName('corona').value)/
+Number(ff_getElementByName('pignone').value)*Number(ff_getElementByName('ruota').value))+' m';}
+function ff_sviluppo_action(element,action)
+{ff_getElementByName('sviluppo').value=0;{ff_getElementByName('sviluppo').value=(Number(ff_getElementByName('corona').value)+Number(ff_getElementByName('pignone').value)+Number(ff_getElementByName('ruota').value))+' m';}}
+function ff_pignone_piccolo_mono_action(element,action)
+{ff_getElementByName('range_mono').value=(Number(ff_getElementByName('pignone_grande_mono').value)/
+Number(ff_getElementByName('pignone_piccolo_mono').value)*100).toFixed(1)+' %';}
+function ff_pignone_grande_mono_action(element,action)
+{ff_getElementByName('range_mono').value=(Number(ff_getElementByName('pignone_grande_mono').value)/
+Number(ff_getElementByName('pignone_piccolo_mono').value)*100).toFixed(1)+' %';}
+function ff_range_mono_action(element,action)
+{ff_getElementByName('range_mono').value=(Number(ff_getElementByName('pignone_grande_mono').value)/
+Number(ff_getElementByName('pignone_piccolo_mono').value)*100).toFixed(1)+' %';}
+function ff_corona_piccola_action(element,action)
+{ff_getElementByName('range').value=(Number(ff_getElementByName('corona_grande').value)/
+Number(ff_getElementByName('corona_piccola').value)*Number(ff_getElementByName('pignone_grande').value)/
+Number(ff_getElementByName('pignone_piccolo').value)*100).toFixed(1)+' %';}
+function ff_corona_grande_action(element,action)
+{ff_getElementByName('range').value=(Number(ff_getElementByName('corona_grande').value)/
+Number(ff_getElementByName('corona_piccola').value)*Number(ff_getElementByName('pignone_grande').value)/
+Number(ff_getElementByName('pignone_piccolo').value)*100).toFixed(1)+' %';}
+function ff_pignone_piccolo_action(element,action)
+{ff_getElementByName('range').value=(Number(ff_getElementByName('corona_grande').value)/
+Number(ff_getElementByName('corona_piccola').value)*Number(ff_getElementByName('pignone_grande').value)/
+Number(ff_getElementByName('pignone_piccolo').value)*100).toFixed(1)+' %';}
+function ff_pignone_grande_action(element,action)
+{ff_getElementByName('range').value=(Number(ff_getElementByName('corona_grande').value)/
+Number(ff_getElementByName('corona_piccola').value)*Number(ff_getElementByName('pignone_grande').value)/
+Number(ff_getElementByName('pignone_piccolo').value)*100).toFixed(1)+' %';}
+function ff_range_action(element,action)
+{ff_getElementByName('range').value=(Number(ff_getElementByName('corona_grande').value)/
+Number(ff_getElementByName('corona_piccola').value)*Number(ff_getElementByName('pignone_grande').value)/
+Number(ff_getElementByName('pignone_piccolo').value)*100).toFixed(1)+' %';}
+function ff_cadenza_action(element,action)
+{ff_getElementByName('velocita').value=(Number(ff_getElementByName('cadenza').value)*Number(ff_getElementByName('corona').value)/
+Number(ff_getElementByName('pignone').value)*Number(ff_getElementByName('ruota').value)).toFixed(3)+' km/h';}
+function ff_velocita_action(element,action)
+{ff_getElementByName('velocita').value=0;{ff_getElementByName('velocita').value=(Number(ff_getElementByName('corona').value)+Number(ff_getElementByName('pignone').value)+Number(ff_getElementByName('ruota').value)).toFixed(3)+' m';}}
+//-->
+</script>
+<form data-ajax="false" action="https://www.lifeintravel.it/calcolo-sviluppo-metrico-dei-rapporti-della-bici-e-range-rapporti.html" method="post" name="ff_form9" id="ff_form9" enctype="multipart/form-data" accept-charset="utf-8" onsubmit="return false;" class="bfQuickMode">
+<div id="bfPage1" class="bfPage">
+<div class="bfErrorMessage bfbs3-alert bfbs3-alert-danger" style="display:none"></div>
+<fieldset class=" " id="sviluppo">
+<legend>Calcola lo sviluppo metrico del rapporto della tua bici</legend>
+<div class="bfbs3-row"><i style="display:none;"></i><div class="bfElemWrap " id="bfElemWrap838">
+<div class=" bfbs3-form-inline"><div class="bfbs3-form-group"><label class="bfbs3-control-label" id="bfLabel838" for="ff_elem838"><span class="hasTooltip" title="" data-original-title="Scegli le dimensioni della tua ruota: la giusta combinazione di diametro del cerchio e larghezza del copertone"><i class="bfbs3-glyphicon bfbs3-glyphicon-question-sign">&nbsp;</i> Ruota</span></label>
+<select data-chosen="no-chzn" class="bfbs3-form-control ff_elem chzn-done" onchange="ff_ruota_action(this,'change');" name="ff_nm_ruota[]" id="ff_elem838">
+<option value="">scegli un valore</option>
+<option value="1.586">20x1.95</option>
+<option value="1.872">24x1.75 (bmx)</option>
+<option value="1.904">24x1.95 (bmx)</option>
+<option value="1.980">26x1.40</option>
+<option value="1.995">26x1.50</option>
+<option value="2.035">26x1.75</option>
+<option value="2.075">26x2.00</option>
+<option value="2.091">26x2.10</option>
+<option value="2.115">26x2.25</option>
+<option value="2.123">26x2.30</option>
+<option value="2.131">26x2.35</option>
+<option value="2.137">26x2.40</option>
+<option value="2.155">26x2.50</option>
+<option value="1.944">650x23</option>
+<option value="1.952">650x25</option>
+<option value="2.145">27x1</option>
+<option value="2.161">27x1-1/4</option>
+<option value="2.169">27x1-3/8</option>
+<option value="2.074">27.5x1.50</option>
+<option value="2.170">27.5x2.10</option>
+<option value="2.186">27.5x2.20</option>
+<option value="2.154">27.5x2.00</option>
+<option value="2.194">27.5x2.25</option>
+<option value="2.202">27.5x2.30</option>
+<option value="2.210">27.5x2.35</option>
+<option value="2.216">27.5x2.40</option>
+<option value="2.234">27.5x2.50</option>
+<option value="2.250">27.5x2.60</option>
+<option value="2.281">27.5x2.80</option>
+<option value="2.313">27.5x3.00</option>
+<option value="2.086">700x20</option>
+<option value="2.096">700x23</option>
+<option value="2.105">700x25</option>
+<option value="2.136">700x28</option>
+<option value="2.146">700x30</option>
+<option value="2.155">700x32</option>
+<option value="2.168">700x35</option>
+<option value="2.180">700x38</option>
+<option value="2.200">700x40</option>
+<option value="2.224">700x42</option>
+<option value="2.235">700x44</option>
+<option value="2.242">700x45</option>
+<option value="2.268">700x47</option>
+<option value="2.193">29x1.50</option>
+<option value="2.273">29x2.00</option>
+<option value="2.289">29x2.10</option>
+<option value="2.305">29x2.20</option>
+<option value="2.313">29x2.25</option>
+<option value="2.321">29x2.30</option>
+<option value="2.329">29x2.35</option>
+<option value="2.335">29x2.40</option>
+<option value="2.353">29x2.50</option>
+<option value="2.369">29x2.60</option>
+<option value="2.433">29x3.00</option>
+</select>
+<br>
+</div></div></div>
+<div class="bfElemWrap " id="bfElemWrap839">
+<div class=" bfbs3-form-inline"><div class="bfbs3-form-group"><label class="bfbs3-control-label" id="bfLabel839" for="ff_elem839"><span class="hasTooltip" title="" data-original-title="Scegli il numero di denti della corona di cui vuoi calcolare  lo sviluppo metrico"><i class="bfbs3-glyphicon bfbs3-glyphicon-question-sign">&nbsp;</i> Corona</span></label>
+<select data-chosen="no-chzn" class="bfbs3-form-control ff_elem chzn-done" onchange="ff_corona_action(this,'change');" name="ff_nm_corona[]" id="ff_elem839">
+<option value="">scegli un valore</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+<option value="32">32</option>
+<option value="33">33</option>
+<option value="34">34</option>
+<option value="35">35</option>
+<option value="36">36</option>
+<option value="37">37</option>
+<option value="38">38</option>
+<option value="39">39</option>
+<option value="40">40</option>
+<option value="41">41</option>
+<option value="42">42</option>
+<option value="43">43</option>
+<option value="44">44</option>
+<option value="45">45</option>
+<option value="46">46</option>
+<option value="47">47</option>
+<option value="48">48</option>
+<option value="49">49</option>
+<option value="50">50</option>
+<option value="51">51</option>
+<option value="52">52</option>
+<option value="53">53</option>
+<option value="54">54</option>
+</select>
+<br>
+</div></div></div>
+<div class="bfElemWrap " id="bfElemWrap844">
+<div class=" bfbs3-form-inline"><div class="bfbs3-form-group"><label class="bfbs3-control-label" id="bfLabel844" for="ff_elem844"><span class="hasTooltip" title="" data-original-title="Scegli il numero di denti del pignone di cui vuoi calcolare  lo sviluppo metrico"><i class="bfbs3-glyphicon bfbs3-glyphicon-question-sign">&nbsp;</i> Pignone</span></label>
+<select data-chosen="no-chzn" class="bfbs3-form-control ff_elem chzn-done" onchange="ff_pignone_action(this,'change');" name="ff_nm_pignone[]" id="ff_elem844">
+<option value="">scegli un valore</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+<option value="32">32</option>
+<option value="33">33</option>
+<option value="34">34</option>
+<option value="35">35</option>
+<option value="36">36</option>
+<option value="37">37</option>
+<option value="38">38</option>
+<option value="39">39</option>
+<option value="40">40</option>
+<option value="41">41</option>
+<option value="42">42</option>
+<option value="43">43</option>
+<option value="44">44</option>
+<option value="45">45</option>
+<option value="46">46</option>
+<option value="47">47</option>
+<option value="48">48</option>
+<option value="49">49</option>
+<option value="50">50</option>
+<option value="51">51</option>
+<option value="52">52</option>
+<option value="53">53</option>
+<option value="54">54</option>
+</select>
+<br>
+</div></div></div>
+<div class="bfElemWrap " id="bfElemWrap840">
+<div class=" bfbs3-form-inline"><div class="bfbs3-form-group"><label class="bfbs3-control-label" id="bfLabel840" for="ff_elem840"><span class="hasTooltip" title="" data-original-title="Qui puoi leggere il risultato dello sviluppo metrico calcolato in metri, della combinazione ruota/corona/pignone da te scelta"><i class="bfbs3-glyphicon bfbs3-glyphicon-question-sign">&nbsp;</i> Sviluppo metrico</span></label>
+<input class="bfbs3-form-control ff_elem inputbox" readonly="readonly" type="text" name="ff_nm_sviluppo[]" value="" id="ff_elem840">
+</div></div></div>
+</div></fieldset>
+
+</body>
+</html>
+
